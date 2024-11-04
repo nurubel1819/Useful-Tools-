@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="All_class_and_frem.word_count">
+  <grid id="27dc6" binding="panel_word_count" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="1031" height="595"/>
+    </constraints>
+    <properties>
+      <background color="-16331575"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="59564" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-62845"/>
+          <text value="Word , Character and Digit Count Tool"/>
+        </properties>
+      </component>
+      <component id="26480" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="24" style="0"/>
+          <foreground color="-126957"/>
+          <text value="Chose Your"/>
+        </properties>
+      </component>
+      <grid id="795df" binding="pnel_sub_word_count" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16331575"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c54cd" class="javax.swing.JButton" binding="button_textAria">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-42235"/>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Count from Here"/>
+            </properties>
+          </component>
+          <component id="d7e59" class="javax.swing.JButton" binding="button_save">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16119809"/>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Save this text"/>
+            </properties>
+          </component>
+          <component id="cf225" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="26" style="0"/>
+              <foreground color="-126957"/>
+              <text value="Option"/>
+            </properties>
+          </component>
+          <component id="276f6" class="javax.swing.JButton" binding="button_get_data">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16119809"/>
+              <font name="Arial Black" size="28" style="0"/>
+              <foreground color="-1641217"/>
+              <text value="Get saved Data"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="54557" binding="scroll">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e9391" class="javax.swing.JTextArea" binding="textArea">
+            <constraints/>
+            <properties>
+              <background color="-1641217"/>
+              <font name="Arial" size="30" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="4752" binding="output" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+          <foreground color="-1641217"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="326e3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Total word is :"/>
+            </properties>
+          </component>
+          <component id="dd760" class="javax.swing.JLabel" binding="lavel_total_word">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a0fc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Total character is :"/>
+            </properties>
+          </component>
+          <component id="68ae0" class="javax.swing.JLabel" binding="lavel_total_char">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="63856" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Total digit is :"/>
+            </properties>
+          </component>
+          <component id="53cb6" class="javax.swing.JLabel" binding="lavel_total_digit">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="28" style="1"/>
+              <foreground color="-1641217"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="2a998" class="javax.swing.JButton" binding="button_home">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16301762"/>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Back to HOME"/>
+        </properties>
+      </component>
+      <component id="55797" class="javax.swing.JButton" binding="deleteDataButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-126957"/>
+          <font name="Arial Black" size="28" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Delete Data"/>
+        </properties>
+      </component>
+      <component id="4a519" class="javax.swing.JButton" binding="button_clear">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-126957"/>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

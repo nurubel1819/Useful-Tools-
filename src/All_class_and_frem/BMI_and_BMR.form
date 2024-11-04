@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="All_class_and_frem.BMI_and_BMR">
+  <grid id="27dc6" binding="panel_BMI_main" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="1020" height="458"/>
+    </constraints>
+    <properties>
+      <background color="-12515797"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="304ea" binding="panel_bmi" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16331575"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e4b70" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="All_image_and_icon/bmi200x150.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d590f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Weight :"/>
+            </properties>
+          </component>
+          <component id="a5f93" class="javax.swing.JTextField" binding="tf_bmi_weight">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="81c8d" class="javax.swing.JComboBox" binding="cb_bmi_weight">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <model>
+                <item value="KG"/>
+                <item value="Pound"/>
+              </model>
+            </properties>
+          </component>
+          <component id="3fe3c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Height :"/>
+            </properties>
+          </component>
+          <component id="37b1b" class="javax.swing.JTextField" binding="tf_bmi_height_feet">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="9bd18" class="javax.swing.JButton" binding="button_bmi">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-42235"/>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-1641217"/>
+              <text value="Calculate"/>
+            </properties>
+          </component>
+          <component id="dafec" class="javax.swing.JLabel" binding="label_bmi">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="BMI is :"/>
+            </properties>
+          </component>
+          <component id="fe99c" class="javax.swing.JButton" binding="button_bmi_clear">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-126957"/>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-1641217"/>
+              <text value="Clear"/>
+            </properties>
+          </component>
+          <component id="c2b29" class="javax.swing.JTextField" binding="tf_bmi_height_inche">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="4a6be" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Feet"/>
+            </properties>
+          </component>
+          <component id="e0840" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Inches"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="77b93" binding="panel_bmr" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16331575"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="acd6f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="All_image_and_icon/bmricon200x150.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1f0b8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Weight :"/>
+            </properties>
+          </component>
+          <component id="76085" class="javax.swing.JTextField" binding="tf_bmr_weight">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="8a5b" class="javax.swing.JComboBox" binding="cb_bmr_weight">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <model>
+                <item value="KG"/>
+                <item value="Pound"/>
+              </model>
+            </properties>
+          </component>
+          <component id="7b2da" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Height :"/>
+            </properties>
+          </component>
+          <component id="76f17" class="javax.swing.JTextField" binding="tf_bmr_height_feet">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="7b68d" class="javax.swing.JButton" binding="button_bmr">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-42235"/>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-1641217"/>
+              <text value="Calculate"/>
+            </properties>
+          </component>
+          <component id="ff7c" class="javax.swing.JLabel" binding="lavel_bmr">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="BMR is :"/>
+            </properties>
+          </component>
+          <component id="aa1ab" class="javax.swing.JButton" binding="button_bmr_clear">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-126957"/>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-1641217"/>
+              <text value="Clear"/>
+            </properties>
+          </component>
+          <component id="d7e4b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Age :"/>
+            </properties>
+          </component>
+          <component id="2161a" class="javax.swing.JTextField" binding="tf_bmr_age">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="90c71" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Years"/>
+            </properties>
+          </component>
+          <component id="8c456" class="javax.swing.JTextField" binding="tf_bmr_height_inche">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="0"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="2f08c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Feet"/>
+            </properties>
+          </component>
+          <component id="30963" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="0"/>
+              <foreground color="-16711680"/>
+              <text value="Inches"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="5df50" class="javax.swing.JButton" binding="button_back_to_home">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16301762"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Back to HOME"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
